@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parallax1{
+    background: url(img/b1d69eb56a487e937b04ec558d9bd5ca.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax2{
+    background: url(img/c6fabd84686691.5d651067490a4.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax3{
+    background: url(img/CAVALLI-CLUB-DUBAI-2015-ANGLE-B2.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.parallax4{
+    background: url(img/139332200389610.jpg);
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    background: url(img/pngwin.png);
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 20px;
+}
+header{
+    display: flex;
+    background-color: rgb(25, 25, 25);
+    padding: 20px 10px;
+}
+ul{
+    display: flex;
+    margin-left: 34%;
+}
+ul li{
+    list-style-type: none;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin: 10px 55px 0px 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 500ms;
+}
+a:hover{
+    color: rgb(211, 43, 226);
+    font-size: 24px;
+}
+.content{
+    background-color: rgb(25, 25, 25);
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    display: flex;
+}
+.conte{
+   margin: 6% 25% 6% 25%;
+}
+.conte1{
+    text-align: center;
+}
+.conte1 h2{
+    margin-bottom: 24px;
+}
+h2{
+    font-size: 42px;
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+.assort{
+    display: flex;
+}
+.assortConte{
+    margin: 0px 10px;
+    text-align: center;
+}
+.assortP{
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    font-size: 8px;
+    padding-left: 0%;
+    padding-top: 0%;
+    border-radius: 25px;
+    background: radial-gradient(rgb(25, 25, 25, 0.8), rgb(25, 25, 25, 0.4));
+}
+.assortP p{
+    padding-top: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.assortP:hover{
+    opacity: 1; 
+}
+.assortImg1{
+    background: url(img/coc1.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 4px solid rgb(39, 39, 39);
+    border-radius: 30px;
+}
+.assortImg2{
+    background: url(img/coc2.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 4px solid rgb(39, 39, 39);
+    border-radius: 30px;
+}
+.assortImg3{
+    background: url(img/coc3.jpg);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 4px solid rgb(39, 39, 39);
+    border-radius: 30px;
+}
+h3{
+    margin-top: 2px;
+}
+.adressCl{
+    display: flex;
+}
+.adressCl p{
+    font-size: 14px;
+    width: 300px;
+    margin-top: 50px;
+    text-align: right;
+    margin-right: 10px;
+}
+.adrImg{
+    background: url(img/Skrin.png);
+    width: 350px;
+    height: 220px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    border: 4px solid rgb(39, 39, 39);
+}
+footer{
+    display: flex;
+    background-color: rgb(25, 25, 25);
+    padding: 10px 10px;
+}
+footer ul{
+    margin-left: 40%;
+}
+footer li{
+    font-size: 14px;
+}
+footer ul li a:hover{
+    color: rgb(211, 43, 226);
+    font-size: 16px; 
+}
+h2 a:hover{
+    font-size: 42px;
+    margin-bottom: 6px;
+    font-weight: 700;
+    color: white;
+}
